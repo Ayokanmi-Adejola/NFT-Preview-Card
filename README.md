@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [NFT Preview Card]()
+- Live Site URL: [NFT Preview Card](https://ayokanmi-adejola.github.io/NFT-Preview-Card/)
 
 ## My process
 
