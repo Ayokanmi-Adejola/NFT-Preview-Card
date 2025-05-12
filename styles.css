@@ -1,0 +1,176 @@
+:root {
+  /* Primary Colors */
+  --blue-500: hsl(215, 51%, 70%);
+  --cyan-400: hsl(178, 100%, 50%);
+  
+  /* Neutral Colors */
+  --blue-950: hsl(217, 54%, 11%); /* main BG */
+  --blue-900: hsl(216, 50%, 16%); /* card BG */
+  --blue-800: hsl(215, 32%, 27%); /* line */
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--blue-950);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 18px;
+}
+
+.card {
+  background-color: var(--blue-900);
+  max-width: 350px;
+  border-radius: 15px;
+  padding: 24px;
+  box-shadow: 0 20px 25px 15px rgba(0, 0, 0, 0.05), 0 40px 30px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.nft-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.title {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.title:hover {
+  color: var(--cyan-400);
+  cursor: pointer;
+}
+
+.description {
+  color: var(--blue-500);
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.price, .time-left {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  color: var(--cyan-400);
+  font-weight: 600;
+}
+
+.time-left {
+  color: var(--blue-500);
+}
+
+.eth-icon, .clock-icon {
+  margin-right: 8px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--blue-800);
+  margin-bottom: 16px;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.creator p {
+  color: var(--blue-500);
+  font-size: 16px;
+}
+
+.creator-name {
+  color: var(--white);
+}
+
+.creator-name:hover {
+  color: var(--cyan-400);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--blue-500);
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: var(--cyan-400);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+  .card {
+    max-width: 325px;
+    padding: 20px;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+}
