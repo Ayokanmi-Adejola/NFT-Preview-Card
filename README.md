@@ -7,7 +7,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,12 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./preview.jpg)
-
-*Note: Take a screenshot of your solution and add it to the project. You can use browser tools to capture the screenshot, then crop and add it to your project directory.*
-
-### Links
-
-- Live Site URL: [NFT Preview Card](https://ayokanmi-adejola.github.io/NFT-Preview-Card/)
 
 ## My process
 
