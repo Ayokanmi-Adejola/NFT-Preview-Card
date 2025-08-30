@@ -2,7 +2,7 @@
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-
+![](./preview.jpg)
 
 ## Overview
 
@@ -12,10 +12,6 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-
-### Screenshot
-
-![](./preview.jpg)
 
 ## My process
 
@@ -74,10 +70,6 @@ In future projects, I'd like to focus on:
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - Comprehensive reference for HTML, CSS, and JavaScript.
 - [CSS-Tricks](https://css-tricks.com/) - Great articles and guides for CSS techniques.
-
-## Author
-
-- Frontend Mentor - [@Ayokanmi-Adejola](https://www.frontendmentor.io/profile/Ayokanmi-Adejola)
 
 
 ## Acknowledgments
