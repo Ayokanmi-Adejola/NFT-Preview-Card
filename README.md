@@ -70,8 +70,3 @@ In future projects, I'd like to focus on:
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) - Comprehensive reference for HTML, CSS, and JavaScript.
 - [CSS-Tricks](https://css-tricks.com/) - Great articles and guides for CSS techniques.
-
-
-## Acknowledgments
-
-Thanks to Frontend Mentor for providing this challenge and to the Frontend Mentor community for their support and feedback.
